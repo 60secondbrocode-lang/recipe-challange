@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.recipe-card-container{
+    
+    min-width: 375px;
+    max-width: 1440px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: "Outfit",sans-serif;
+    color: hsl(30, 10%, 34%);
+
+}
+
+img{
+    display:inline-block;
+    width: 100%;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+    font-family: serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-width: 800;
+}
+
+.prep-section{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+}
+
+h4{
+    color: hsl(332, 51%, 32%);
+    margin-left: 15px;
+}
+
+.prep-section li::marker{
+    color: hsl(332, 51%, 32%);;
+}
+
+.prep-section li{
+    padding: 5px 0 10px 15px;
+}
+
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family:serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li::marker{
+    color:hsl(14, 45%, 36%);
+}
+
+li{ 
+    margin-left: -15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+
+ table{
+    border-collapse: collapse;
+    width: 100%;
+
+ }
+
+ th , td{  
+    border-bottom: 2px solid hsl(30, 19%, 92%);
+    /* width: 100%; */
+    padding: 10px 0 10px 30px;
+    text-align: left;
+
+}
+
+.break-line{
+    width: 100%;
+    height: 2px;
+    background-color: hsl(30, 19%, 92%);
+}
+
+
+footer{
+    margin-top: 30px;
+}
